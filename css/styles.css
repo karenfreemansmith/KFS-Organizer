@@ -1,0 +1,12 @@
+body {
+  background-color: #6C2FB2;
+}
+h1 {
+  background-color: #FFFEC9;
+  color: #B2B123;
+  font-size: 4em;
+  line-height: 4em;
+  text-align: center;
+  font-family: 'Comfortaa', Arial, sans-serif;;
+  border-radius: 25px;
+}
