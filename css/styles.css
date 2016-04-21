@@ -10,3 +10,16 @@ h1 {
   font-family: 'Comfortaa', Arial, sans-serif;;
   border-radius: 25px;
 }
+
+#show-contact {
+  display: none;
+}
+
+.contact {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}

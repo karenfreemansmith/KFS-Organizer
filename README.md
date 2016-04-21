@@ -1,7 +1,7 @@
 # [Address Book](http://karenfreemansmith.github.io/addressbook)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 18, 2016__
+__Version 1: April 20, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
@@ -10,7 +10,7 @@ __*A webpage to keep track of contacts.*__
 Follow along with the Address Book lessons to add Address objects and support for multiple addresses. Complete these items for it too:
 
   * Add address type to the addresses entered
-  * Hide any additional address fields when the form is submitted. 
+  * Hide any additional address fields when the form is submitted.
 
 #### Uses:
 * [Fresh Start](http://karenfreemansmith.github.io/freshstart)
