@@ -4,6 +4,18 @@
 function Contact(first, last) {
   this.firstName = first;
   this.lastName = last;
+  this.address = [];
+}
+
+Contact.prototype.fullName=function() {
+  return this.firstName + " " + this.lastName;
+}
+
+function Address(street, city, state, zip) {
+  this.street=street;
+  this.city=city;
+  this.state=state;
+  this.zip=zip;
 }
 
 //user interface logic
@@ -22,10 +34,9 @@ $("form#new-contact").submit(function(event){
 
 });
 
-$(".contact").last().click(alert("you clicked?"));
-  //function() {
-  //$("#show-contact").show();
-  //$("#show-contact h2").text(newContact.firstName);
-  //$(".first-name").text(newContqact.firstName);
-  //$(".last-name").text(newContact.lastName);
-//});
+ $(".contact").last().click(function() {
+  $("#show-contact").show();
+  $("#show-contact h2").text(newContact.firstName);
+  $(".first-name").text(newContact.firstName);
+  $(".last-name").text(newContact.lastName);
+});
