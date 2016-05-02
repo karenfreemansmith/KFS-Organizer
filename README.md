@@ -1,7 +1,7 @@
 # [Address Book](http://karenfreemansmith.github.io/addressbook)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: April 20, 2016__
+__Version 1: May 2, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
@@ -22,7 +22,8 @@ Follow along with the Address Book lessons to add Address objects and support fo
 For questions or comments, please __email [Karen](karenfreemansmith@gmail.com)__
 
 ### Known Issues
-* Still Under Construction
+* Clicking on contacts does not work (not even to bring up alert box, code kinda works if put in a button instead)
+* Addresses are not included in contact object yet
 
 ### Technologies Used
 ###### HTML, CSS, Bootstrap, JavaScript, jQuery
