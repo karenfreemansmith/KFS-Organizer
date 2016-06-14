@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Personal Organizer</title>
+</head>
+<body>
+  <h1>Personal Organizer</h1>
+  <h2 id="result">Setup</h2>
+  <label>Enter your name:</label><input type="text" id="yourname">
+  <button onclick="updateName()">Save</button>
+  <script>
+    //localStorage.removeItem("yourname");
+    if (typeof(Storage) !== "undefined") {
+        if(localStorage.getItem("yourname")!=="") {
+          document.getElementById("result").innerHTML = localStorage.getItem("yourname");
+        }
+
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+    }
+
+    function updateName() {
+      localStorage.setItem('yourname', document.getElementById('yourname').value);
+      document.getElementById("result").innerHTML = localStorage.getItem("yourname");
+    }
+  </script>
+</body>
+</html>
