@@ -1,11 +1,11 @@
 # [Organizer](http://karenfreemansmith.github.io/organizer)
 ![project screenshot](/img/screenshot.jpg)
 
-__Version 1: June 13, 2016__
+__Version 1.1.0: June 28, 2016__
 ## by [Karen Freeman-Smith](http://karenfreemansmith.github.io)
 
 ### Description
-__*A webpage to keep track of contacts and other personal information.*__
+__*A web app to keep track of contacts and other personal information.*__
 
 
 #### Uses:
