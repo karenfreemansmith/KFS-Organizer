@@ -1,0 +1,54 @@
+$brown: #5C2C02;
+$gold: #FFE333;
+$cream: #fffec9;
+
+body {
+  background-color: $brown;
+  color: $brown;
+}
+.container {
+  background-color: $cream;
+  border-radius: 25px;
+  padding:50px;
+}
+h1 {
+  color: $gold;
+  font-size: 4em;
+  line-height: 3;
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  text-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  background-color: $brown;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  border-radius: 10px;
+  width: 15%;
+  text-align: center;
+  background-color: $gold;
+}
+li:hover {
+  background-color: $brown;
+  box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.5);
+}
+li a {
+  color: $brown;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: 'Kalam', cursive;
+}
+li a:hover {
+  color: $cream;
+  text-decoration: underline;
+}
