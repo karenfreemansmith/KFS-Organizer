@@ -1,4 +1,20 @@
 //alert("jQuery is working on " + $("h1").text()); //test for jQuery linked and loaded correctly
+//local storage examle code: <script>
+  //localStorage.removeItem("yourname");
+  if (typeof(Storage) !== "undefined") {
+      if(localStorage.getItem("yourname")!=="") {
+        document.getElementById("result").innerHTML = localStorage.getItem("yourname");
+      }
+
+  } else {
+      document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+  }
+
+  function updateName() {
+    localStorage.setItem('yourname', document.getElementById('yourname').value);
+    document.getElementById("result").innerHTML = localStorage.getItem("yourname");
+  }
+// removed from index page to make room for angular...</script>
 
 //business logic
 function Contact(first, last) {
