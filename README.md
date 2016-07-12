@@ -7,10 +7,6 @@ __Version 1.1.0: June 28, 2016__
 ### Description
 __*A web app to keep track of contacts and other personal information.*__
 
-
-#### Uses:
-* [Fresh Start](http://karenfreemansmith.github.io/freshstart)
-
 ### Setup/Installation
 *None required. Clone or download and extract to use*
 
